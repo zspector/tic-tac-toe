@@ -50,7 +50,7 @@ $(document).on('click', '#board .space', function (e) {
   setNextTurn();
 });
 
-$(document).on('game-win', function (winner) {
+$(document).on('game-win', function (e, winner) {
   // TODO: Alert who won the game
 });
 
